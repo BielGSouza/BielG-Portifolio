@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+:root{
+    --cor-de-fundo-principal: #1B1E24;
+    --cor-de-fundo-secundaria: #EBFDEF;
+    --cor-dos-quadrados: #00BF63;
+
+    --cor-dos-titulos: #A0BD7A;
+    --cor-dos-titulos-2: #2A6A5F;
+    --cor-dos-subtitulos: #38D489;
+    --cor-dos-paragrafos: #F2F1EB;
+    --cor-dos-paragrafos-2: #1B1A1A;
+
+    --fonte-textos: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+body{
+    font-family: var(--fonte-textos);
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    background-image: url(../../../Imagens/Plano-de-Fundo/MontanhaNevada.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+#logobielg{
+    width: 85px;
+    padding: 7px;
+
+}
+
+nav{
+    
+}
+
+

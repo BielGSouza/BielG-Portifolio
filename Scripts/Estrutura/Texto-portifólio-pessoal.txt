@@ -1,0 +1,43 @@
+[Header]
+.Sobre mim
+.Habilidades
+.Futuro
+.Projetos
+-------------------------------------------------------------
+[Chegada]
+Bem-Vindo!
+Olá, sou o Gabriel.
+Seu designer e desenvolvedor web Front-End.
+ Seja bem vindo ao meu portifólio pessoal.
+ O portifólio foi feito com a linguagem de programação JavaScript, estruturado através de HTML e o estilo foi feito com o CSS.
+ Esse é o meu primeiro portifólio pessoal, ao tempo irei evoluir ele cada vez mais.
+  Portifólio Contato
+-------------------------------------------------------------
+[Sobre mim]
+Sobre mim
+ Olá, me chamo Gabriel tenho 16 anos e sou estudante de programação. Por enquanto tenho a vontade de me especializar na área de desenvolvmento web, mobile e quem sabe mais para frente até jogos.
+ Curso o segundo ano do ensino médio e em casa estudo programação online mesmo. Tudo o que eu aprendi foi através de artigos da W3Schools e do canal do youtube do professor Gustavo Guanabara.
+ Desde pequeno eu gostava dessa área de tecnologia e aos 13 anos conheci a  programação, mas só começei a estudar aos 15 e sigo até hoje.
+-------------------------------------------------------------
+[habilidades/Futuro]
+ Desenvolvedor
+Atualmente eu tenho o conhecimento das seguintes tecnologias:
+         ---                ---                ---
+São poucas tecnologias que tenho conhecimento, com o tempo quero adquirir mais conhecimento sobre as tecnologias e frameworks:
+        ----------------        ----------------------
+ Designer
+Como designer eu tenho um conhecimento bacana, mas um pouco limiatdo.
+Atualmente estou buscando um conhecimento maior nessa área, espero que até o fim do ano eu esteja com um conhecimento mais avançado nessa área.
+Mas eu ainda conheço um pouco sobre esses tópicos:
+.Cores e suas tonalidades
+.Proporcionalidade
+.E mais alguns
+-------------------------------------------------------------
+[Projetos]
+Projetos
+Não tenho muitos projetos para apresentar ainda, mas ai em baixo estão alguns que já fiz como programador apendiz:
+-------------------------------------------------------------
+[Rodapé]
+Site produzido por Gabriel de Souza Almeida.
+Copyright 2024
+
