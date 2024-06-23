@@ -10,18 +10,23 @@
     <link rel="stylesheet" href="Estilos/Media-Queries/(3)Telas-Medias/telaMedia.css"> <!--Tela Média-->
     <link rel="stylesheet" href="Estilos/Media-Queries/(4)Telas-Pequenas/telaPequena.css"> <!--Tela Pequena-->
     <link rel="stylesheet" href="Estilos/Dark-Mode/DarkMode.css"> <!--Tema Escuro-->
+    <script src="index.js"></script>
 </head>
 <body>
     <header>
         <nav>
-            <img src="Imagens/Icones/logoBIELG.png" alt="logo '<BielG/>'" width="100px" id="logobielg">
+            <img src="Imagens/Icones/logoBIELG.png" alt="bielg" id="logoBIELG">
+            
             <p>Sobre mim</p>
             <p>Habilidades</p>
             <p>Futuro</p>
             <p>Projetos</p>
 
-            <label for="btn.darkmode"></label>
-            <input type="checkbox" name="btn-darkmode" id="btn*darkmode" >
+            <input type="checkbox" name="btn.darkmode" id="btndarkmode" onchange="Verificar()">
+            <label for="btndarkmode" class="switch">
+                <span class="slider"></span>
+            </label>
+            
         </nav>
         <section id="cabeca">
             <h1>Bem-Vindo!</h1>

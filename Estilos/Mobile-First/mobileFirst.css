@@ -19,12 +19,11 @@
     margin: 0px;
 }
 
-
-
 body{
     font-family: var(--fonte-textos);
     width: 100%;
     height: 100%;
+    transition: 0.5s;
 }
 
 header{
@@ -33,14 +32,19 @@ header{
     height: 100vh;
 }
 
-#logobielg{
-    width: 85px;
-    padding: 7px;
-
+#logoBIELG{
+    width: 70px;
 }
 
 nav{
-    
+    display: flex;
+    justify-content: center;
+    padding: 7px 10px;
 }
 
+nav>p{
+    padding: 8px;
+    font-size: 10px;
+    flex: auto;
+}
 
