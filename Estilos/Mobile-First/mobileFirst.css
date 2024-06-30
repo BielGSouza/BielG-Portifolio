@@ -1,5 +1,22 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'OpenSans-bold';
+    src: url(../../Open_Sans/static/OpenSans-Bold.ttf) format(truetype),
+}
+@font-face {
+    font-family: 'OpenSans-medium';
+    src: url(../../Open_Sans/static/OpenSans-Medium.ttf);
+}
+@font-face {
+    font-family: 'OpenSans-regular';
+    src: url(../../Open_Sans/static/OpenSans-Regular.ttf);
+}
+@font-face {
+    font-family: 'OpenSans-light';
+    src:  url(../../Open_Sans/static/OpenSans-Light.ttf) format(truetype);
+}
+
 :root{
     --cor-de-fundo-principal: #1B1E24;
     --cor-de-fundo-secundaria: #EBFDEF;
@@ -11,7 +28,10 @@
     --cor-dos-paragrafos: #F2F1EB;
     --cor-dos-paragrafos-2: #1B1A1A;
 
-    --fonte-textos: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    --fonte-bold: 'OpenSans-bold';
+    --fonte-medium: 'OpenSans-medium';
+    --fonte-regular: 'OpenSans-regular';
+    --fonte-light: 'OpenSans-light';
 }
 
 *{
@@ -20,15 +40,32 @@
 }
 
 body{
-    font-family: var(--fonte-textos);
+    font-family: var(--fonte-regular);
     width: 100%;
     height: 100%;
     transition: 0.5s;
 }
 
+p,li{
+    color: var(--cor-dos-paragrafos);
+    font-family: 'OpenSans-light';
+}
+
+h1{
+    color: var(--cor-dos-titulos);
+    font-family: 'OpenSans-bold';
+}
+
+h3{
+    color: var(--cor-dos-subtitulos);
+    font-family: 'OpenSans-medium';
+}
+
 nav{
-    display: inline-block;
-    padding: 7px 10px;
+    display: flex;
+    justify-content: space-around;
+
+    padding: 15px 10px;
     text-align: center;
     margin: auto;
 }
@@ -39,6 +76,11 @@ nav>p{
     display: inline-block;
 }
 
+#logoBIELG{
+    width: 60px;
+    height: 19px;
+}
+
 header{
     background-image: url(../../Imagens/Plano-de-Fundo/MontanhaNevada.jpg);
     background-size: cover;
@@ -46,21 +88,45 @@ header{
     text-align: center;
 }
 
-#logoBIELG{
-    display: inline-block;
-    position: relative;
-    top: 15px;
-
-    width: 60px;
-    height: 19px;
-    padding: 8px;
+section#cabeca{
+    padding: 90px 15px;
+}
+#cabeca>h1, h3, p, button{
+    animation-name: entrada;
+    animation-duration: 4s;
 }
 
-label{
-    display: inline-block;
-    position: relative;
-    top: -30px;
-    left: 330px;
+@keyframes entrada {
+    from {color: transparent;}
+    to {color: ;}
 }
 
+#cabeca>h1{
+    font-size: 42px;
+    padding: 5px;
+}
 
+#cabeca>h3{
+    font-size: 21px;
+    padding: 0px 15px 7px 15px;
+}
+
+#cabeca>p{
+    padding: 0px 20px;
+}
+
+button{
+    background-color: var(--cor-dos-quadrados);
+    color: var(--cor-dos-paragrafos-2);
+    font-family: 'OpenSans-light';
+    font-size: 14px;
+    padding: 5px 8px;
+    border: none;
+    border-radius: 15px;
+    margin: 15px;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.411);
+}
+
+#contato{
+    background-color: var(--cor-de-fundo-secundaria);
+}

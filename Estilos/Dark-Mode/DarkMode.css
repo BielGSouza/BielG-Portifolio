@@ -44,10 +44,11 @@
 #btndarkmode:checked ~.switch .slider{
     background-color: var(--cor-dos-quadrados);
     transform: translateX(18px);
+    height: 27px;
 }
 
 body.dark-mode{
     background-color: var(--cor-de-fundo-principal);
     transition: .5s;
-    height: 25px;
+    
 }
