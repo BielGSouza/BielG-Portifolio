@@ -47,8 +47,6 @@
     height: 27px;
 }
 
-body.dark-mode{
-    background-color: var(--cor-de-fundo-principal);
-    transition: .5s;
-    
+.dark{
+    background-color: red;
 }

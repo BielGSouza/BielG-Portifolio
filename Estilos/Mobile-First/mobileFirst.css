@@ -18,7 +18,7 @@
 }
 
 :root{
-    --cor-de-fundo-principal: #1B1E24;
+    --cor-de-fundo-principal: #09100B;
     --cor-de-fundo-secundaria: #EBFDEF;
     --cor-dos-quadrados: #00BF63;
 
@@ -68,6 +68,12 @@ nav{
     padding: 15px 10px;
     text-align: center;
     margin: auto;
+    position: sticky;
+    top: 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.021);
+
+    background-color: transparent;
+    backdrop-filter: blur(10px);
 }
 
 nav>p{
@@ -84,35 +90,44 @@ nav>p{
 header{
     background-image: url(../../Imagens/Plano-de-Fundo/MontanhaNevada.jpg);
     background-size: cover;
+    background-attachment: fixed;
     height: 100vh;
     text-align: center;
+}
+
+@keyframes entrada {
+    from {color: transparent; background-color: transparent; }
+    to {color: ; background-color: ; }
 }
 
 section#cabeca{
     padding: 90px 15px;
 }
-#cabeca>h1, h3, p, button{
-    animation-name: entrada;
-    animation-duration: 4s;
-}
 
-@keyframes entrada {
-    from {color: transparent;}
-    to {color: ;}
+#cimacabeca{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #cabeca>h1{
     font-size: 42px;
     padding: 5px;
+    animation-name: entrada;
+    animation-duration: 5s;
 }
 
 #cabeca>h3{
     font-size: 21px;
     padding: 0px 15px 7px 15px;
+    animation-name: entrada;
+    animation-duration: 5s;
 }
 
 #cabeca>p{
     padding: 0px 20px;
+    animation-name: entrada;
+    animation-duration: 5s;
 }
 
 button{
@@ -125,8 +140,87 @@ button{
     border-radius: 15px;
     margin: 15px;
     box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.411);
+    animation-name: entrada;
+    animation-duration: 5s;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+button:hover{
+    background-color: gray;
 }
 
 #contato{
     background-color: var(--cor-de-fundo-secundaria);
 }
+
+#contato:hover{
+    background-color: gray;
+}
+
+main{
+    text-align: center;
+}
+
+main{
+    color: var(--cor-dos-paragrafos-2);
+    background-color: #09100B;
+}
+
+#art-sobremim{
+    padding: 30px 10px 50px 10px;
+    height: 71vh;
+    background-color: #09100B;
+    box-shadow: 0px 5px 5px 4px rgba(0, 0, 0, 0.404);
+    position: relative;
+    z-index: 1;
+}
+
+#art-futuro-habilidades{
+    display: flex;
+    background-color: var(--cor-de-fundo-secundaria);
+    margin: -236px 10px;
+    border-radius: 25px;
+    padding: 8px;
+    border: 1px solid black;
+    position: relative;
+    z-index: 1;
+}
+#art-futuro-habilidades>section>p, li{
+    color: var(--cor-dos-paragrafos-2);
+}
+#art-futuro-habilidades>section>h1{
+    color: var(--cor-dos-titulos-2);
+}
+
+li{
+    overflow: auto;
+}
+
+#desenvolvedor{
+    padding: 5px;
+}
+
+.logoslin{
+    display: flex;
+    width: 143px;
+    height: 50px;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#designer{
+    padding: 5px;
+}
+
+#vazio{
+    background-color: var(--cor-de-fundo-secundaria);
+    height: 35vh;
+}
+
+#art-projetos{
+    background-color: #09100B;
+}
+
