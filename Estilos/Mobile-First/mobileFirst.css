@@ -227,6 +227,16 @@ li{
     padding-top: 110px;
 }
 
+#linha{
+    width: 2px;
+    height: 470px;
+    background-color: black;
+
+    position: relative;
+    top: 110px;
+    right: 162px;
+}
+
 #vazio{
     background-color: var(--cor-de-fundo-secundaria);
     height: 342px;
