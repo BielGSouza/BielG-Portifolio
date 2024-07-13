@@ -77,6 +77,14 @@ nav{
     backdrop-filter: blur(10px);
 }
 
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: var(--cor-dos-paragrafos);
+}
+
 nav>p{
     padding: 3px;
     font-size: 10px;
@@ -147,8 +155,18 @@ button{
     transition: 0.6s;
 }
 
-button:hover{
-    background-color: gray;
+#portifolio{
+    background-color: rgb(109, 13, 109);
+    color: var(--cor-dos-paragrafos);
+}
+
+#portifolio:hover{
+    background-color: rgb(73, 68, 68);
+}
+
+#portifolio>a{
+    color: var(--cor-dos-paragrafos);
+
 }
 
 #contato{
@@ -227,16 +245,6 @@ li{
     padding-top: 110px;
 }
 
-#linha{
-    width: 2px;
-    height: 470px;
-    background-color: black;
-
-    position: relative;
-    top: 110px;
-    right: 162px;
-}
-
 #vazio{
     background-color: var(--cor-de-fundo-secundaria);
     height: 342px;
@@ -269,5 +277,60 @@ footer{
     border: 1px solid black;
     border-radius: 15px;
     margin: 2px 2px;
+}
+
+#art-proj01{
+    background-image: url(../../Imagens/Imagens-dos-Projetos/Projeto-Android.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+#art-proj01:hover{
+    transform: scale(1.8);
+    position: relative;
+    left: 50px;
+    transition: 0.5s;
+}
+
+#art-proj02{
+    background-image: url(../../Imagens/Imagens-dos-Projetos/Projeto-Login.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+#art-proj02:hover{
+    transform: scale(1.8);
+    position: relative;
+    transition: 0.5s;
+}
+
+#art-proj03, #art-proj04, #art-proj05, #art-proj06{
+    background-color: #2A6A5F;
+}
+
+#art-proj03:hover{
+    transform: scale(1.8);
+    position: relative;
+    right: 50px;
+    transition: 0.5s;
+}
+
+#art-proj04:hover{
+    transform: scale(1.8);
+    position: relative;
+    left: 50px;
+    transition: 0.5s;
+}
+
+#art-proj05:hover{
+    transform: scale(1.8);
+    transition: 0.5s;
+}
+
+#art-proj06:hover{
+    transform: scale(1.8);
+    position: relative;
+    right: 50px;
+    transition: 0.5s;
 }
 
