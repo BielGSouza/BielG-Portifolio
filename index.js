@@ -31,3 +31,37 @@ function Verificar() {
     }
 }
 
+const Mover = () => {
+    window.scrollTo({
+        top: 743,
+        behavior: "smooth"
+    })
+}
+
+const Mover1 = () => {
+    window.scrollTo({
+        top: 1194,
+        behavior: "smooth"
+    })
+}
+
+const Mover2 = () => {
+    window.scrollTo({
+        top: 1194,
+        behavior: "smooth"
+    })
+}
+
+const Mover3 = () => {
+    window.scrollTo({
+        top: 1550,
+        behavior: "smooth"
+    })
+}
+
+const ParaTopo = () => {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    })
+}

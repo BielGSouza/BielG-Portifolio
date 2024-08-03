@@ -14,14 +14,22 @@
     <link rel="shortcut icon" href="Imagens/icone.ico" type="image/x-icon">
 </head>
 <body>
-    
+    <span id="paraTopo" onclick="ParaTopo()"><img src="Imagens/Icones/seta.png" alt=""></span>
     <header>
     <nav>
         <img src="Imagens/Icones/logoBIELG.png" alt="bielg" id="logoBIELG">
-        <p>Sobre mim</p>
-        <p>Habilidades</p>
-        <p>Futuro</p>
-        <p>Projetos</p>
+        <button class="btn-nav" onclick="Mover()">
+            <p>Sobre mim</p>
+        </button>
+        <button class="btn-nav" onclick="Mover1()">
+            <p>Habilidades</p>
+        </button>
+        <button class="btn-nav" onclick="Mover2()">
+            <p>Futuro</p>
+        </button>
+        <button class="btn-nav" onclick="Mover3()">
+            <p>Projetos</p>
+        </button>
          <input type="checkbox" name="btn.darkmode" id="btndarkmode" onchange="Verificar()">
             <label for="btndarkmode" class="switch">
                 <span class="slider"></span>
@@ -36,8 +44,10 @@
                    O portifólio foi feito com a linguagem de programação JavaScript, junjto de HTML e CSS para fazer o site.
                    </p>
                    <p>Esse é o meu primeiro portifólio pessoal, ao tempo irei evoluir ele cada vez mais.</p>
-                   <a href="https://github.com/BielGSouza"><button id="portifolio">Git Hub</a></button></a>
-                   <button id="contato">Contato</button>
+                <a href="https://github.com/BielGSouza">
+                    <button id="portifolio" class="principal">Git Hub</button>
+                </a>
+                   <button id="contato" class="principal">Contato</button>
             </section>
         </div>
     </header>
