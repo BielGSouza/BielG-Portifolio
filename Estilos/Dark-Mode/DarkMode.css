@@ -50,3 +50,10 @@
 .dark{
     background-color: red;
 }
+
+@media (min-width: 600px) {
+    .switch{
+        width: 52px;
+        height: 37px;
+    }
+}

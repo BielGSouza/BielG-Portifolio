@@ -142,6 +142,7 @@ section#cabeca{
 }
 
 #cimacabeca{
+    padding-top: 55px;
     display: flex;
     align-items: center;
     justify-content: center;
