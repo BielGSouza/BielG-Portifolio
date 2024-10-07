@@ -54,6 +54,16 @@
 @media (min-width: 600px) {
     .switch{
         width: 52px;
+        height: 35px;
+    }
+
+    .slider{
+        width: 23px;
+        height: 28px;
+    }
+
+    #btndarkmode:checked ~.switch .slider{
         height: 37px;
+        transform: translateX(25px);
     }
 }
