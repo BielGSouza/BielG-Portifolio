@@ -119,11 +119,6 @@ nav>p{
     display: inline-block;
 }
 
-#logoBIELG{
-    width: 60px;
-    height: 19px;
-}
-
 header{
     background-image: url(../../Imagens/Plano-de-Fundo/MontanhaNevada.jpg);
     background-size: cover;
@@ -363,3 +358,44 @@ footer{
     transition: 0.5s;
 }
 
+/* Tamnho das imagens e do site */
+
+#logoBIELG{
+    width: 60px;
+    height: 19px;
+}
+
+    #lanterna1{
+        width: 124px;
+        height: 150px;
+        z-index: 2;
+    }
+    #lanterna2{
+        width: 86px;
+        height: 105px;
+        left: 20px;
+        z-index: 1;
+    }
+    #lanterna3{
+        width: 64px;
+        height: 78px;
+        left: 80px;
+    }
+    #lanterna4{
+        width: 124px;
+        height: 150px;
+        left: 60%;
+        z-index: 2;
+    }
+    #lanterna5{
+        width: 86px;
+        height: 105px;
+        left: 70vw;
+        z-index: 1;
+        transition: 0.7s;
+    }
+    #lanterna6{
+        width: 64px;
+        height: 78px;
+        left: 210px;
+    }
