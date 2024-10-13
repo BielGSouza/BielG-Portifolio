@@ -222,7 +222,7 @@ main{
 
 .lanternaOFF{
     position: absolute;
-    top: -1px;
+    top: 0px;
     left: 30px;
 }
 
@@ -358,7 +358,7 @@ footer{
     transition: 0.5s;
 }
 
-/* Tamnho das imagens e do site */
+/* Tamnho das imagens do site */
 
 #logoBIELG{
     width: 60px;
@@ -366,36 +366,42 @@ footer{
 }
 
     #lanterna1{
-        width: 124px;
+        width: 106px;
         height: 150px;
+        left: 7vw;
         z-index: 2;
+        transition: 0.7s;
     }
     #lanterna2{
-        width: 86px;
+        width: 74px;
         height: 105px;
-        left: 20px;
+        left: 4vw;
         z-index: 1;
+        transition: 0.7s;
     }
     #lanterna3{
-        width: 64px;
+        width: 55px;
         height: 78px;
-        left: 80px;
+        left: 20vw;
+        transition: 0.7s;
     }
     #lanterna4{
-        width: 124px;
+        width: 106px;
         height: 150px;
-        left: 60%;
+        left: 58vw;
         z-index: 2;
+        transition: 0.7s;
     }
     #lanterna5{
-        width: 86px;
+        width: 74px;
         height: 105px;
         left: 70vw;
         z-index: 1;
         transition: 0.7s;
     }
     #lanterna6{
-        width: 64px;
+        width: 55px;
         height: 78px;
-        left: 210px;
+        left: 60vw;
+        transition: 0.7s;
     }

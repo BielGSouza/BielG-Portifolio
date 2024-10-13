@@ -35,10 +35,12 @@
         padding: 30px 12px 99px 12px;
     }
 
-    #lanterna1{width: 173px; height: 210px; position: absolute; left: 37px;}
-    #lanterna2{width: 120px; height: 147px; position: absolute;}
-    #lanterna3{width: 89px; height: 109px; position: absolute; left: ;}
-    #lanterna4{width: 173px; height: 210px; position: absolute; left: 60%;}
-    #lanterna5{width: 120px; height: 147px; position: absolute; left: 80vw; transition:0.7s;}
-    #lanterna6{width: 89px; height: 109px; position: absolute; left: 494px;}    
+    #lanterna1{width: 173px; height: 210px; position: absolute; left: 10vw;}
+    #lanterna2{width: 120px; height: 147px; position: absolute; left: 7vw;}
+    #lanterna3{width: 89px; height: 109px; position: absolute; left: 22vw;}
+    #lanterna4{width: 173px; height: 210px; position: absolute; left: 62vw;}
+    #lanterna5{width: 120px; height: 147px; position: absolute; left: 74vw; transition:0.7s;}
+    #lanterna6{width: 89px; height: 109px; position: absolute; left: 63vw;}    
+
+    
 }
